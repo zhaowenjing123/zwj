@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import {Button} from 'antd'; 
 import './App.css';
+// import 'antd/dist/antd.css'
 
 class App extends Component {
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <Button>hahah</Button>
           <a
             className="App-link"
             href="https://reactjs.org"
